@@ -1,6 +1,6 @@
 import argparse
 import sys
-sys.path.append('./')
+sys.path.append('./third_party/old_detectron2/detectron2')
 from detectron2.config import get_cfg
 from detectron2.engine import  default_setup
 from freesolo import add_solo_config
