@@ -1,9 +1,11 @@
 import argparse
 import sys
-sys.path.append('./third_party/old_detectron2/detectron2')
 from detectron2.config import get_cfg
 from detectron2.engine import  default_setup
+sys.path.append(0,'/Zero-shot-RIS/third_party/old_detectron2/detectron2')
+
 from freesolo import add_solo_config
+sys.path.append(0,'/content/Zero-shot-RIS/third_party/FreeSOLO/freesolo')
 import os
 import numpy as np
 from PIL import Image, ImageColor
